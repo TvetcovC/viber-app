@@ -1,0 +1,168 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+
+    background-color: #444;
+
+    --Melrose: #B5B0D9;
+    --FreeSpeechBlue: #4D49BF;
+    --MediumSlateBlueD: #6863F2;
+    --MediumSlateBlueL: #9C99F2;
+    --WhiteSmoke: #F2F2F2;
+    --DarkGrey: #333;
+    --Silver: #726f70;
+    font-size: 14px;
+}
+.mockPhone {
+    height: 620px;
+    width: 350px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    border: 5px solid black;
+
+    background-color: var(--WhiteSmoke);
+    border-radius: 2%;
+}
+#viber-app {
+    height: 100%;
+    position: relative;
+    
+}
+#viber-app header {
+    height: 10%;
+}
+#viber-app header .icons {
+    position: absolute;
+    top: 0.5em;
+    right: 0.5em;
+    color: var(--Silver);
+}
+#viber-app header .logoViber {
+    position: absolute;
+    top: 2.5em;
+    left: 1em;
+    font-weight: 700;
+}
+#viber-app header .fa-search{
+    position: absolute;
+    top: 2.5em;
+    right: 1em;
+    color: var(--MediumSlateBlueD);
+}
+#viber-app section{
+    height: 83%;
+}
+#viber-app .contacts{
+    height: 100%;
+}
+#viber-app .contacts li{
+    position: relative;
+    height: calc(100% / 8);
+    border-top: 1px solid var(--Silver);
+}
+#viber-app .contacts li img{
+    height: 3em;
+    width: 3em;
+    padding: 0.8em;
+    border-radius: 45%;
+    display: inline-block;
+    position: absolute;
+}
+#viber-app .contacts li .text {
+    margin: 0 4.5em;
+}
+#viber-app .contacts li h2{
+    font-weight: 700;
+    padding: 0.5em 0;
+    display: inline-block;
+}
+#viber-app .contacts li p{
+    color: var(--Silver);
+    font-size: 0.9em;
+    display: inline-block;
+}
+#viber-app .contacts li .time {
+    position: absolute;
+    top: 0.6em;
+    right: 0.6em;;
+    font-size: 0.8em;
+    color: var(--Silver);
+}
+#viber-app .contacts li .statusChecked,
+#viber-app .contacts li .statusUnchecked,
+#viber-app .contacts li .statusSent{
+    position: absolute;
+    top: 0.5em;
+    right: 3em;
+    font-size: 0.8em;
+}
+#viber-app .contacts li .statusChecked {
+    color: var(--MediumSlateBlueD)
+}
+#viber-app .contacts li .statusUnchecked,
+#viber-app .contacts li .statusSent {
+    color: var(--Silver)
+}
+#viber-app .contacts li .messages,
+#viber-app .contacts li .messagesOff {
+    text-align: center;
+    position: absolute;
+    top: 2.5em;
+    right: 1em;
+    font-size: 0.8em;
+    font-weight: 700;
+    color: var(--WhiteSmoke);
+    padding: 0.5em;
+    border-radius: 100%;
+}
+#viber-app .contacts li .messages{
+    background-color: var(--FreeSpeechBlue);
+}
+#viber-app .contacts li .messagesOff{
+    background-color: var(--Silver);
+}
+#viber-app footer {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    height: 7%;
+}
+#viber-app footer .fa-sms{
+    position: absolute;
+    left: 2em;
+    font-size: 2em;
+    color: var(--MediumSlateBlueD);
+}
+#viber-app footer .fa-phone-alt{
+    font-size: 2em;
+    color: var(--Silver);
+}
+#viber-app footer .fa-bars{
+    position: absolute;
+    right: 2em;
+    font-size: 2em;
+    color: var(--Silver);
+}
+#viber-app footer .footerChats{
+    font-size: 0.8em;
+    position: absolute;
+    left: 5em;
+    color: var(--MediumSlateBlueD);
+}
+#viber-app footer .footerCalls{
+    position: absolute;
+    font-size: 0.8em;
+    left: 0;
+    right: 0;
+    color: var(--Silver);
+}
+#viber-app footer .footerBurger{
+    font-size: 0.8em;
+    position: absolute;
+    right: 5em;
+    color: var(--Silver);
+}
